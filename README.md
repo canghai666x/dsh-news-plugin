@@ -6,7 +6,15 @@ DeepSeek Harness 新闻采集工具插件。注册一个 `news_fetch` 工具：�
 
 **设计原则：采集与解析是确定性工作交给插件，评分/筛选/写作交给模型。** 不依赖第三方包（Node 原生 fetch + 正则解析）。
 
-## 安装
+## 安装（一句话版，推荐）
+
+在 DSH 对话里直接说：
+
+> 安装 https://github.com/canghai666x/dsh-news-plugin 这个插件
+
+Agent 会自动完成：clone 仓库 → 放入 plugins 目录 → 在 `cordis.yml` 注册 → 重启 dsh。全程不用手动敲命令。
+
+**手动安装（备选）：**
 
 将插件放入 Harness 项目，并在 `cordis.yml` 组合中声明（参考官方教程第 7 章）：
 
