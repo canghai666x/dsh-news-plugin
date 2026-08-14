@@ -1,5 +1,7 @@
 # dsh-news-plugin
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 DeepSeek Harness 新闻采集工具插件。注册一个 `news_fetch` 工具：抓取 RSS 新闻源并解析为结构化条目，供模型做五维评分筛选与简报编排。
 
 **设计原则：采集与解析是确定性工作交给插件，评分/筛选/写作交给模型。** 不依赖第三方包（Node 原生 fetch + 正则解析）。
