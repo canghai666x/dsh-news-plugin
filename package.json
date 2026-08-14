@@ -1,0 +1,21 @@
+{
+  "name": "dsh-news-plugin",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness news fetch tool plugin (RSS). Everything is a plugin.",
+  "type": "module",
+  "main": "index.ts",
+  "files": ["index.ts", "README.md"],
+  "keywords": ["dsh-plugin", "deepseek-harness", "cordis", "rss", "news", "agent"],
+  "license": "MIT",
+  "dependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-tools": "*"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-tools": "*"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
