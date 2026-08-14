@@ -12,6 +12,8 @@ DeepSeek Harness 新闻采集工具插件。注册一个 `news_fetch` 工具：�
 
 > 安装 https://github.com/canghai666x/dsh-news-plugin 这个插件
 
+Agent 安装时会读取仓库内的 `AGENT_INSTALL.md`（给 AI 看的精确安装说明书），按步骤执行并验证。
+
 Agent 会自动完成：clone 仓库 → 放入 plugins 目录 → 在 `cordis.yml` 注册 → 重启 dsh。全程不用手动敲命令。
 
 **手动安装（备选）：**
